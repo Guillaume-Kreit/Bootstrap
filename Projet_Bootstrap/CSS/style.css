@@ -1,0 +1,142 @@
+/* Entrée */
+
+[class*="col-"], footer {
+  border-radius: 9px;
+  border: 2px solid red;
+  line-height: 40px;
+  text-align: center;
+}
+
+.col-lg-offset-2{
+  margin-left: 10%;
+}
+
+.col-lg-offset-1{
+  margin-left : 10%;
+}
+
+@import url(http://fr.allfont.net/allfont.css?fonts=chunkfive);
+
+p{
+  color: black;
+  font-family: 'ChunkFive Roman', arial;
+}
+
+body {
+    background-color: black;
+    color: #FAC80D;
+}
+
+h1{
+  color: #FAC80D;
+  font-family: 'ChunkFive Roman', arial;
+  margin-top: 30px;
+  font-size: 6.5em;
+}
+
+h2{
+  font-family: 'ChunkFive Roman', arial;
+}
+
+h3{
+
+}
+
+
+#Romain {
+  background-color: black;
+}
+
+
+#Robin {
+  background-color: #FAC80D;
+}
+
+
+#Valentin {
+  background-color:#FAC80D ;
+  margin-bottom: 40px;
+  border-radius: 9px;
+}
+
+#Celestin {
+  background-color:#FAC80D ;
+  color: black;
+  border-radius: 9px;
+}
+
+#Corentin{
+  background-color: black;
+}
+
+#Alain{
+  color: #FAC80D;
+  margin-top: 100px;
+}
+
+#Logo {
+  width:625px;
+  height:500px;
+}
+
+#Composition{
+  width: 250px;
+  height: 200px;
+  border-radius: 9px;
+  border: 4px solid red;
+}
+
+#Signature {
+  width: 175px;
+  height : 150px;
+}
+
+#burger {
+  width: 550px;
+  height : 325px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-right: 120px;
+}
+
+/* #FAC80D couleur de référence */
+/* #FF0400 couleur de réference */
+
+
+/* Acceuil */
+
+body {
+    background-color: black;
+    color: #FAC80D;
+}
+
+.collapsible {
+    background-color: #FAC80D;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 105%;
+    border: none;
+    border-radius: 9px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #FF0400;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #FAC80D;
+    border-radius: 9px;
+    text-align: left;
+}
+
+
+/* Photo */
